@@ -62,6 +62,7 @@ nav {
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
+    position: absolute;
 }
 
 nav a {
@@ -69,7 +70,7 @@ nav a {
     text-decoration: none;
     font-weight: 500;
     transition: 0.3s;
-    position: relative;
+    position: absolute;
 }
 
 nav a::after {
